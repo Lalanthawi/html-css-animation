@@ -1,657 +1,987 @@
 <!DOCTYPE html>
 <html lang="en">
-<head lang="en">
-	<title>Welcome to HTML</title>
-	<meta  charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/animate.css">
-	<link rel="stylesheet" href="css/aos.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<!--<link rel="stylesheet" href="css/meanmenu.css">-->
-	<script src="js/jquery.slim.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/bootstrap.bundle.min.js"></script>
-  	<script src="js/jquery.min.js"></script>
-  	<script src="js/jquery.meanmenu.js"></script>
-	<link rel="stylesheet" href="css/custom.css">
-    <link rel="stylesheet" href="css/responsive.css">
-</head>
-<body>
-	<div class="wrapper">
-		<div class="topbar">
-			<marquee width="100%" direction="right">
-				This is a sample scrolling text that has scrolls texts to right.
-			</marquee>
-		</div>
-		<div class="header_bg">
-			<div class="mainHeader">
-				<header class="header" id="main">
-					<div class="container">
-						<nav class="navbar navbar-expand-md">
-						  	<a class="navbar-brand" href="index.html">
-							    <img src="images/logo.png" alt="logo">
-							</a>
-							<div class="mobView">
-								<ul>
-                              		<li class="stickymainmob"><a class="nav-link" href="#"><img src="images/icons/search.svg"></a></li>
-                              		<li class="stickymainmob"><a class="nav-link stickymainmob" href="#"><img src="images/icons/cart.svg"></a></li>
-                              		<li class="stickyMob"><a class="nav-link" href="#"><img src="images/icons/icon-search.svg"></a></li>
-                              		<li class="stickyMob"><a class="nav-link" href="#"><img src="images/icons/icon-shopping-cart.svg"></a></li>
-                              		<li><button class="openbtn" onclick="openNav()"><i class="fa fa-bars" aria-hidden="true"></i></button></li>
-                              	</ul>
-                             </div>
-						  	<div class="collapse navbar-collapse justify-content-center menus" id="collapsibleNavbar">
-						    	<ul class="navbar-nav">
-						      		<li class="nav-item">
-						        		<a class="nav-link active" href="index.html">Home</a>
-						      		</li>
-						      		<li class="nav-item">
-						        		<a class="nav-link" href="about.html">About Us</a>
-						      		</li>
-						      		<li class="nav-item">
-						        		<a class="nav-link" href="product.html">Our Products</a>
-						      		</li>
-						      		<li class="nav-item">
-						        		<a class="nav-link" href="blog.html">Blog</a>
-						      		</li>
-						      		<li class="nav-item">
-						        		<a class="nav-link" href="contact.html">Contact Us</a>
-						      		</li>    
-						    	</ul>
-						  	</div>
-						  	<div class="ml-auto icon_menus nonSticky">
-						  		<ul class="navbar-nav">
-						      		<li class="nav-item">
-						        		<a class="nav-link" href="#"><img src="images/icons/user.svg"></a>
-						      		</li>
-						      		<li class="nav-item">
-						        		<a class="nav-link" href="#"><img src="images/icons/search.svg"></a>
-						      		</li>
-						      		<li class="nav-item">
-						        		<a class="nav-link" href="#"><img src="images/icons/heart.svg"></a>
-						      		</li> 
-						      		<li class="nav-item">
-						        		<a class="nav-link" href="#"><img src="images/icons/cart.svg"></a>
-						      		</li>
-						      		<li class="nav-item dropdown">
-						        		<a class="nav-link dropdown-toggle" data-toggle="dropdown">EN</a>
-						        		<div class="dropdown-menu">
-										    <a class="dropdown-item" href="#">EN</a>
-										    <a class="dropdown-item" href="#">Thai</a>
-										</div>
-						      		</li>   
-						    	</ul>
-						  	</div>
-						  	<div class="ml-auto icon_menus stickyView">
-						  		<ul class="navbar-nav">
-						      		<li class="nav-item">
-						        		<a class="nav-link" href="#"><img src="images/icons/icon-user.svg"></a>
-						      		</li>
-						      		<li class="nav-item">
-						        		<a class="nav-link" href="#"><img src="images/icons/icon-search.svg"></a>
-						      		</li>
-						      		<li class="nav-item">
-						        		<a class="nav-link" href="#"><img src="images/icons/icon-heart.svg"></a>
-						      		</li> 
-						      		<li class="nav-item">
-						        		<a class="nav-link" href="#"><img src="images/icons/icon-shopping-cart.svg"></a>
-						      		</li>
-						      		<li class="nav-item dropdown">
-						        		<a class="nav-link dropdown-toggle" data-toggle="dropdown">EN</a>
-						        		<div class="dropdown-menu">
-										    <a class="dropdown-item" href="#">EN</a>
-										    <a class="dropdown-item" href="#">Thai</a>
-										</div>
-						      		</li>   
-						    	</ul>
-						  	</div>
-						</nav>
-					</div>
-				</header>
-				<section class="home_main">
-					<div class="container">
-						<div class="heroMain">
-							<div class="row align-items-center">
-								<div class="col-md-7">
-									<div class="left_home_text" data-aos="fade-up" data-aos-duration="1000">
-										<h1><span>Lorem Ipsum is simply</span> dummy text</h1>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac laoreet lacus. Morbi auctor quam tempus massa vestibulum aliquet eu vitae ligula.</p>
-										<div class="discover">
-											<a href="#" class="discoverBtn">Discover More</a>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-5">
-									<div class="homeImg" data-aos="fade-up" data-aos-duration="1000">
-										<img src="images/canabis_leaf.png" class="backImg">
-										<div class="right_home_img">
-											<img src="images/home_prodImg.png" alt="product">
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-			</div>
-		</div>
-		<section class="product_sec">
-			<div class="container">
-				<div class="prod_list">
-					<div class="prod_title" data-aos="fade-up" data-aos-duration="1000">
-						<h4 class="allTitle">Our Products</h4>
-						<div class="leaf_pos">
-							<img src="images/leaf_big.png" alt="leaf_big" class="big_leaf">
-						</div>
-					</div>
-					<div class="clearfix"></div>
-					<div id="mixedSlider2" class="productmix_slider">
-                        <div class="MS-content">
-                            <div class="item" data-aos="fade-up" data-aos-duration="1000">
-                                <div class="prodBox">
-                                	<div class="pro_img black">
-                    					<a href="#"><img src="images/prodImg1.png" alt="" class="img-responsive">
-                    					</a>
-                    					<div class="img_bg_hov">
-                    						<img src="images/pd_bg.png" alt="pd_bg.png">
-                    					</div>
-                    				</div>
-                    				<div class="hov_Cap">
-                    					<h3>Product title here</h3>
-                    					<h5>$45.00</h5>
-                    				</div>
-                        		</div>
-                            </div>
-                            <div class="item" data-aos="fade-up" data-aos-duration="1000">
-                                <div class="prodBox">
-                                	<div class="pro_img gray">
-                    					<a href="#"><img src="images/prodImg2.png" alt="" class="img-responsive">
-                    					</a>
-                    					<div class="img_bg_hov">
-                    						<img src="images/pd_bg.png" alt="pd_bg.png">
-                    					</div>
-                    				</div>
-                    				<div class="hov_Cap">
-                    					<h3>Product title here</h3>
-                    					<h5>$45.00</h5>
-                    				</div>
-                        		</div>
-                            </div>
-                            <div class="item" data-aos="fade-up" data-aos-duration="1000">
-                                <div class="prodBox">
-                                	<div class="pro_img blue">
-                    					<a href="#"><img src="images/prodImg3.png" alt="" class="img-responsive">
-                    					</a>
-                    					<div class="img_bg_hov">
-                    						<img src="images/pd_bg.png" alt="pd_bg.png">
-                    					</div>
-                    				</div>
-                    				<div class="hov_Cap">
-                    					<h3>Product title here</h3>
-                    					<h5>$45.00</h5>
-                    				</div>
-                        		</div>
-                            </div>
-                            <div class="item">
-                                <div class="prodBox">
-                                	<div class="pro_img red">
-                    					<a href="#"><img src="images/prodImg4.png" alt="" class="img-responsive">
-                    					</a>
-                    					<div class="img_bg_hov">
-                    						<img src="images/pd_bg.png" alt="pd_bg.png">
-                    					</div>
-                    				</div>
-                    				<div class="hov_Cap">
-                    					<h3>Product title here</h3>
-                    					<h5>$45.00</h5>
-                    				</div>
-                        		</div>
-                            </div>
-                            <div class="item">
-                                <div class="prodBox">
-                                	<div class="pro_img black">
-                    					<a href="#"><img src="images/prodImg1.png" alt="" class="img-responsive">
-                    					</a>
-                    					<div class="img_bg_hov">
-                    						<img src="images/pd_bg.png" alt="pd_bg.png">
-                    					</div>
-                    				</div>
-                    				<div class="hov_Cap">
-                    					<h3>Product title here</h3>
-                    					<h5>$45.00</h5>
-                    				</div>
-                        		</div>
-                            </div>
-                            <div class="item">
-                                <div class="prodBox">
-                                	<div class="pro_img gray">
-                    					<a href="#"><img src="images/prodImg2.png" alt="" class="img-responsive">
-                    					</a>
-                    					<div class="img_bg_hov">
-                    						<img src="images/pd_bg.png" alt="pd_bg.png">
-                    					</div>
-                    				</div>
-                    				<div class="hov_Cap">
-                    					<h3>Product title here</h3>
-                    					<h5>$45.00</h5>
-                    				</div>
-                        		</div>
-                            </div>
-                        </div>
-                        <div class="MS-controls">
-                            <button class="MS-left"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
-                            <button class="MS-right"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
-                        </div>
+  <head lang="en">
+    <title>Welcome to HTML</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/aos.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <!--<link rel="stylesheet" href="css/meanmenu.css">-->
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.meanmenu.js"></script>
+    <script src="js/scrollMagic.min.js"></script>
+    <script src="js/gsap.min.js"></script>
+    <script src="js/motionPath.min.js"></script>
+    <script src="js/scrollTrigger.min.js"></script>
+
+    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <div id="trigger"></div>
+    <div class="wrapper">
+      <div class="topbar">
+        <marquee width="100%" direction="right">
+          This is a sample scrolling text that has scrolls texts to right.
+        </marquee>
+      </div>
+
+      <div class="header_bg">
+        <div class="mainHeader">
+          <header class="header" id="main">
+            <div class="container">
+              <nav class="navbar navbar-expand-md">
+                <a class="navbar-brand" href="index.html">
+                  <img src="images/logo.png" alt="logo" />
+                </a>
+                <div class="mobView">
+                  <ul>
+                    <li class="stickymainmob">
+                      <a class="nav-link" href="#"
+                        ><img src="images/icons/search.svg"
+                      /></a>
+                    </li>
+                    <li class="stickymainmob">
+                      <a class="nav-link stickymainmob" href="#"
+                        ><img src="images/icons/cart.svg"
+                      /></a>
+                    </li>
+                    <li class="stickyMob">
+                      <a class="nav-link" href="#"
+                        ><img src="images/icons/icon-search.svg"
+                      /></a>
+                    </li>
+                    <li class="stickyMob">
+                      <a class="nav-link" href="#"
+                        ><img src="images/icons/icon-shopping-cart.svg"
+                      /></a>
+                    </li>
+                    <li>
+                      <button class="openbtn" onclick="openNav()">
+                        <i class="fa fa-bars" aria-hidden="true"></i>
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+                <div
+                  class="collapse navbar-collapse justify-content-center menus"
+                  id="collapsibleNavbar"
+                >
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="product.html">Our Products</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="ml-auto icon_menus nonSticky">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"
+                        ><img src="images/icons/user.svg"
+                      /></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"
+                        ><img src="images/icons/search.svg"
+                      /></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"
+                        ><img src="images/icons/heart.svg"
+                      /></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"
+                        ><img src="images/icons/cart.svg"
+                      /></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" data-toggle="dropdown"
+                        >EN</a
+                      >
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">EN</a>
+                        <a class="dropdown-item" href="#">Thai</a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="ml-auto icon_menus stickyView">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"
+                        ><img src="images/icons/icon-user.svg"
+                      /></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"
+                        ><img src="images/icons/icon-search.svg"
+                      /></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"
+                        ><img src="images/icons/icon-heart.svg"
+                      /></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"
+                        ><img src="images/icons/icon-shopping-cart.svg"
+                      /></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" data-toggle="dropdown"
+                        >EN</a
+                      >
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">EN</a>
+                        <a class="dropdown-item" href="#">Thai</a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </header>
+          <section class="home_main">
+            <div class="container">
+              <div class="heroMain">
+                <div class="row align-items-center">
+                  <div class="col-md-7">
+                    <div
+                      class="left_home_text"
+                      data-aos="fade-up"
+                      data-aos-duration="1000"
+                    >
+                      <h1><span>Lorem Ipsum is simply</span> dummy text</h1>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Nullam ac laoreet lacus. Morbi auctor quam tempus massa
+                        vestibulum aliquet eu vitae ligula.
+                      </p>
+                      <div class="discover">
+                        <a href="#" class="discoverBtn">Discover More</a>
+                      </div>
                     </div>
-                    <img src="images/leaf_small.png" alt="leaf_big" class="small_leaf">
-				</div>
-			</div>
-			<div class="abBg_images">
-				<img src="images/abBg1.png" alt="abBg1" class="abBg1_img" data-aos="fade-up" data-aos-duration="1000">
-				<img src="images/abBg2.png" alt="abBg2" class="abBg2_img" data-aos="fade-up" data-aos-duration="1000">
-			</div>
-		</section>
-		<section class="aboutUs" data-aos="fade-up" data-aos-duration="1000">
-			<div class="container">
-				<div class="about">
-					<div class="row align-items-center">
-						<div class="col-lg-6 col-md-12 col-sm-12">
-							<div class="left_about_text" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="1000">
-								<div class="leafarea">
-									<h4 class="allTitle">About Us</h4>
-									<h5>All Information my company</h5>
-								</div>
-								<p>Quisque nec vehicula ipsum, ac auctor leo. Duis blandit non leo id semper. Donec aliquet lacinia faucibus. Integer vulputate dignissim urna in scelerisque. In nisl dui, congue ac mollis sit amet, commodo id nulla. In sollicitudin ipsum at ipsum fermentum, ac blandit nulla fringilla. Cras iaculis lorem in nisl hendrerit egestas. Donec pulvinar vehicula sem sit amet tempor. Aenean nisl leo, ornare eu ullamcorper sit amet, tincidunt eget lorem. </p>
-								<p>Mauris ullamcorper facilisis mauris eu ultricies. Nunc sodales sed risus sed gravida. Cras nec augue ante. Vestibulum pretium tincidunt magna vel vehicula.</p>
-								<p>Mauris quis mollis turpis, faucibus porttitor libero. Curabitur eu est felis. Etiam blandit augue vitae mauris dictum luctus. Mauris eu tellus aliquet, tincidunt arcu quis, fermentum urna.</p>
-								<div class="discover">
-									<a href="#" class="discoverBtn">More About Us</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-6 col-md-12 col-sm-12">
-							<div class="aboutImg" >
-								<div class="right_home_img2" data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-duration="1000">
-									<img src="images/thum-pro.png" alt="product">
-								</div>
-							</div>
-						</div>
-						<!-- <div class="col-md-6 col-sm-12">
+                  </div>
+                  <div class="col-md-5">
+                    <div
+                      class="homeImg"
+                      data-aos="fade-up"
+                      data-aos-duration="1000"
+                    >
+                      <img src="images/canabis_leaf.png" class="backImg" />
+                      <div class="right_home_img">
+                        <img
+                          id="beer_can"
+                          src="images/home_prodImg.png"
+                          alt="product"
+                        />
+                        <svg
+                          class="motion_path_wrapper"
+                          width="420"
+                          height="613"
+                          viewBox="0 0 420 613"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            id="motionpath"
+                            d=""
+                            stroke=""
+                            stroke-width="7"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+      <section class="product_sec">
+        <div class="container">
+          <div class="prod_list">
+            <div class="prod_title" data-aos="fade-up" data-aos-duration="1000">
+              <h4 class="allTitle">Our Products</h4>
+              <div class="leaf_pos">
+                <img
+                  src="images/leaf_big.png"
+                  alt="leaf_big"
+                  class="big_leaf"
+                />
+              </div>
+            </div>
+            <div class="clearfix"></div>
+            <div id="mixedSlider2" class="productmix_slider">
+              <div class="MS-content">
+                <div class="item" data-aos="fade-up" data-aos-duration="1000">
+                  <div class="prodBox">
+                    <div class="pro_img gray">
+                      <a href="#"
+                        ><img
+                          src="images/prodImg2.png"
+                          alt=""
+                          class="img-responsive"
+                        />
+                      </a>
+                      <div class="img_bg_hov">
+                        <img src="images/pd_bg.png" alt="pd_bg.png" />
+                      </div>
+                    </div>
+                    <div class="hov_Cap">
+                      <h3>Product title here</h3>
+                      <h5>$45.00</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="item" data-aos="fade-up" data-aos-duration="1000">
+                  <div class="prodBox">
+                    <div class="pro_img black">
+                      <a href="#"
+                        ><img
+                          src="images/prodImg1.png"
+                          alt=""
+                          class="img-responsive"
+                        />
+                      </a>
+                      <div class="img_bg_hov">
+                        <img src="images/pd_bg.png" alt="pd_bg.png" />
+                      </div>
+                    </div>
+                    <div class="hov_Cap">
+                      <h3>Product title here</h3>
+                      <h5>$45.00</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="item" data-aos="fade-up" data-aos-duration="1000">
+                  <div class="prodBox">
+                    <div class="pro_img blue">
+                      <a href="#"
+                        ><img
+                          src="images/prodImg3.png"
+                          alt=""
+                          class="img-responsive"
+                        />
+                      </a>
+                      <div class="img_bg_hov">
+                        <img src="images/pd_bg.png" alt="pd_bg.png" />
+                      </div>
+                    </div>
+                    <div class="hov_Cap">
+                      <h3>Product title here</h3>
+                      <h5>$45.00</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="prodBox">
+                    <div class="pro_img red">
+                      <a href="#"
+                        ><img
+                          src="images/prodImg4.png"
+                          alt=""
+                          class="img-responsive"
+                        />
+                      </a>
+                      <div class="img_bg_hov">
+                        <img src="images/pd_bg.png" alt="pd_bg.png" />
+                      </div>
+                    </div>
+                    <div class="hov_Cap">
+                      <h3>Product title here</h3>
+                      <h5>$45.00</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="prodBox">
+                    <div class="pro_img black">
+                      <a href="#"
+                        ><img
+                          src="images/prodImg1.png"
+                          alt=""
+                          class="img-responsive"
+                        />
+                      </a>
+                      <div class="img_bg_hov">
+                        <img src="images/pd_bg.png" alt="pd_bg.png" />
+                      </div>
+                    </div>
+                    <div class="hov_Cap">
+                      <h3>Product title here</h3>
+                      <h5>$45.00</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="prodBox">
+                    <div class="pro_img gray">
+                      <a href="#"
+                        ><img
+                          src="images/prodImg2.png"
+                          alt=""
+                          class="img-responsive"
+                        />
+                      </a>
+                      <div class="img_bg_hov">
+                        <img src="images/pd_bg.png" alt="pd_bg.png" />
+                      </div>
+                    </div>
+                    <div class="hov_Cap">
+                      <h3>Product title here</h3>
+                      <h5>$45.00</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="MS-controls">
+                <button class="MS-left" id="ms-left">
+                  <i class="fa fa-angle-left" aria-hidden="true"></i>
+                </button>
+                <button class="MS-right" id="ms-right">
+                  <i class="fa fa-angle-right" aria-hidden="true"></i>
+                </button>
+              </div>
+            </div>
+            <img
+              src="images/leaf_small.png"
+              alt="leaf_big"
+              class="small_leaf"
+            />
+          </div>
+        </div>
+        <div class="abBg_images">
+          <img
+            src="images/abBg1.png"
+            alt="abBg1"
+            class="abBg1_img"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          />
+          <img
+            src="images/abBg2.png"
+            alt="abBg2"
+            class="abBg2_img"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          />
+        </div>
+      </section>
+      <section class="aboutUs" data-aos="fade-up" data-aos-duration="1000">
+        <div class="container">
+          <div class="about">
+            <div class="row align-items-center">
+              <div class="col-lg-6 col-md-12 col-sm-12">
+                <div
+                  class="left_about_text"
+                  data-aos="fade-right"
+                  data-aos-offset="300"
+                  data-aos-easing="ease-in-sine"
+                  data-aos-duration="1000"
+                >
+                  <div class="leafarea">
+                    <h4 class="allTitle">About Us</h4>
+                    <h5>All Information my company</h5>
+                  </div>
+                  <p>
+                    Quisque nec vehicula ipsum, ac auctor leo. Duis blandit non
+                    leo id semper. Donec aliquet lacinia faucibus. Integer
+                    vulputate dignissim urna in scelerisque. In nisl dui, congue
+                    ac mollis sit amet, commodo id nulla. In sollicitudin ipsum
+                    at ipsum fermentum, ac blandit nulla fringilla. Cras iaculis
+                    lorem in nisl hendrerit egestas. Donec pulvinar vehicula sem
+                    sit amet tempor. Aenean nisl leo, ornare eu ullamcorper sit
+                    amet, tincidunt eget lorem.
+                  </p>
+                  <p>
+                    Mauris ullamcorper facilisis mauris eu ultricies. Nunc
+                    sodales sed risus sed gravida. Cras nec augue ante.
+                    Vestibulum pretium tincidunt magna vel vehicula.
+                  </p>
+                  <p>
+                    Mauris quis mollis turpis, faucibus porttitor libero.
+                    Curabitur eu est felis. Etiam blandit augue vitae mauris
+                    dictum luctus. Mauris eu tellus aliquet, tincidunt arcu
+                    quis, fermentum urna.
+                  </p>
+                  <div class="discover">
+                    <a href="#" class="discoverBtn">More About Us</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12 col-sm-12">
+                <div class="aboutImg">
+                  <div
+                    class="right_home_img2"
+                    data-aos="fade-left"
+                    data-aos-easing="ease-in-sine"
+                    data-aos-duration="1000"
+                  >
+                    <img src="images/thum-pro.png" alt="product" />
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="col-md-6 col-sm-12">
 							<div class="aboutImg">
 								<div class="right_about_img" data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-duration="1000">
 									<img src="images/home_prodImg2.png" alt="product">
 								</div>
 							</div>
 						</div> -->
-					</div>
-				</div>
-			</div>
-			<!-- <div class="abProd_bg_img">
+            </div>
+          </div>
+        </div>
+        <!-- <div class="abProd_bg_img">
 					<img src="images/abProdBg.png" alt="abProdBg">				
 				</div> -->
-			<!-- <div class="abBack">
+        <!-- <div class="abBack">
 				<img src="images/product2_bg.png" class="productBg">
 			</div> -->
-			<div class="abBack">
-				<img src="images/THUM.jpg" class="productBg">
-				<img src="images/About-image.jpg" class="productBg_mob">
-			</div>
-		</section>
-		<section class="productGallery" data-aos="fade-up" data-aos-duration="1000">
-			<div class="container">
-				<h4 class="allTitle" data-aos="fade-up" data-aos-duration="1000">Best seller</h4>
-				<div class="galProd" data-aos="fade-up" data-aos-duration="1000">
-					<div class="row align-items-center">
-						<div class="col-md-6 col-sm-12" data-aos="fade-right" data-aos-duration="1000">
-							<div class="galleryBoxProduct bluePro align-items-center">
-								<div class="proGal_text">
-									<h3>Product Title Here</h3>
-									<h4>$45.00 <strike>$55.00</strike></h4>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-									<a href="#">Buy Now</a>
-								</div>
-								<div class="prodGal_img">
-									<img src="images/250_blue_badge.png" alt="home_prodImg" class="item_img">
-									<div class="imgCaption">
-										<img src="images/ganja-img.png" alt="ganja-img">
-									</div>
-									<!-- <div class="badge">
+        <div class="abBack">
+          <img src="images/THUM.jpg" class="productBg" />
+          <img src="images/About-image.jpg" class="productBg_mob" />
+        </div>
+      </section>
+      <section
+        class="productGallery"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
+        <div class="container">
+          <h4 class="allTitle" data-aos="fade-up" data-aos-duration="1000">
+            Best seller
+          </h4>
+          <div class="galProd" data-aos="fade-up" data-aos-duration="1000">
+            <div class="row align-items-center">
+              <div
+                class="col-md-6 col-sm-12"
+                data-aos="fade-right"
+                data-aos-duration="1000"
+              >
+                <div class="galleryBoxProduct bluePro align-items-center">
+                  <div class="proGal_text">
+                    <h3>Product Title Here</h3>
+                    <h4>$45.00 <strike>$55.00</strike></h4>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                    <a href="#">Buy Now</a>
+                  </div>
+                  <div class="prodGal_img">
+                    <img
+                      src="images/250_blue_badge.png"
+                      alt="home_prodImg"
+                      class="item_img"
+                    />
+                    <div class="imgCaption">
+                      <img src="images/ganja-img.png" alt="ganja-img" />
+                    </div>
+                    <!-- <div class="badge">
 										<img src="images/badge3.png" alt="badge">
 									</div> -->
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 col-sm-12" data-aos="fade-left" data-aos-duration="1000">
-							<div class="galleryBoxProduct pinkPro align-items-center">
-								<div class="proGal_text">
-									<h3>Product Title Here</h3>
-									<h4>$45.00 <strike>$55.00</strike></h4>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-									<a href="#">Buy Now</a>
-								</div>
-								<div class="prodGal_img">
-									<img src="images/prodImg4_badge.png" alt="home_prodImg" class="item_img">
-									<div class="imgCaption">
-										<img src="images/ganja-img.png" alt="ganja-img">
-									</div>
-									<!-- <div class="badge">
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-md-6 col-sm-12"
+                data-aos="fade-left"
+                data-aos-duration="1000"
+              >
+                <div class="galleryBoxProduct pinkPro align-items-center">
+                  <div class="proGal_text">
+                    <h3>Product Title Here</h3>
+                    <h4>$45.00 <strike>$55.00</strike></h4>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                    <a href="#">Buy Now</a>
+                  </div>
+                  <div class="prodGal_img">
+                    <img
+                      src="images/prodImg4_badge.png"
+                      alt="home_prodImg"
+                      class="item_img"
+                    />
+                    <div class="imgCaption">
+                      <img src="images/ganja-img.png" alt="ganja-img" />
+                    </div>
+                    <!-- <div class="badge">
 										<img src="images/badge5.png" alt="badge">
 									</div> -->
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 col-sm-12" data-aos="fade-right" data-aos-duration="1000">
-							<div class="galleryBoxProduct blackPro align-items-center">
-								<div class="proGal_text">
-									<h3>Product Title Here</h3>
-									<h4>$45.00 <strike>$55.00</strike></h4>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-									<a href="#">Buy Now</a>
-								</div>
-								<div class="prodGal_img">
-									<img src="images/500_black_badge.png" alt="home_prodImg" class="item_img">
-									<div class="imgCaption">
-										<img src="images/ganja-img.png" alt="ganja-img">
-									</div>
-									<!-- <div class="badge">
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-md-6 col-sm-12"
+                data-aos="fade-right"
+                data-aos-duration="1000"
+              >
+                <div class="galleryBoxProduct blackPro align-items-center">
+                  <div class="proGal_text">
+                    <h3>Product Title Here</h3>
+                    <h4>$45.00 <strike>$55.00</strike></h4>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                    <a href="#">Buy Now</a>
+                  </div>
+                  <div class="prodGal_img">
+                    <img
+                      src="images/500_black_badge.png"
+                      alt="home_prodImg"
+                      class="item_img"
+                    />
+                    <div class="imgCaption">
+                      <img src="images/ganja-img.png" alt="ganja-img" />
+                    </div>
+                    <!-- <div class="badge">
 										<img src="images/badge10.png" alt="badge">
 									</div> -->
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 col-sm-12" data-aos="fade-left" data-aos-duration="1000">
-							<div class="galleryBoxProduct grayPro align-items-center">
-								<div class="proGal_text">
-									<h3>Product Title Here</h3>
-									<h4>$45.00 <strike>$55.00</strike></h4>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-									<a href="#">Buy Now</a>
-								</div>
-								<div class="prodGal_img">
-									<img src="images/big_prodImg.png" alt="home_prodImg" class="item_img">
-									<div class="imgCaption">
-										<img src="images/gray-ganja.png" alt="ganja-img">
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="testimonials" data-aos="fade-up" data-aos-duration="1000">
-			<div class="container">
-				<div class="feedback">
-					<div class="feedbackArea">
-						<h4 class="allTitle">Testimonials</h4>
-						<h5>What Customers Are Saying</h5>
-						<div class="leaf_pos">
-							<img src="images/leaf_small.png" alt="leaf_small" class="small_leaf">
-						</div>
-						<img src="images/trans_leaf.png" alt="trans_leaf" class="trans_leaf1">
-					</div>
-					<div id="mixedSlider4" class="feedback_slider">
-                        <div class="MS-content">
-                            <div class="item" data-aos="fade-up" data-aos-duration="1000">
-                                <div class="feedBox">
-                                	<h4>Lorem Ipsum Dolor</h4>
-									<h6>Managing Director</h6>
-									<div class="clearfix"></div>
-									<ul class="ratings">
-										<li><i class="fa fa-star" aria-hidden="true"></i></li>
-										<li><i class="fa fa-star" aria-hidden="true"></i></li>
-										<li><i class="fa fa-star" aria-hidden="true"></i></li>
-										<li><i class="fa fa-star" aria-hidden="true"></i></li>
-										<li><i class="fa fa-star" aria-hidden="true"></i></li>
-									</ul>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-								</div>
-                            </div>
-                            <div class="item" data-aos="fade-up" data-aos-duration="4000">
-                                <div class="feedBox">
-                                	<h4>Lorem Ipsum Dolor</h4>
-									<h6>Managing Director</h6>
-									<div class="clearfix"></div>
-									<ul class="ratings">
-										<li><i class="fa fa-star" aria-hidden="true"></i></li>
-										<li><i class="fa fa-star" aria-hidden="true"></i></li>
-										<li><i class="fa fa-star" aria-hidden="true"></i></li>
-										<li><i class="fa fa-star" aria-hidden="true"></i></li>
-										<li><i class="fa fa-star" aria-hidden="true"></i></li>
-									</ul>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-								</div>
-                            </div>
-                            <div class="item" data-aos="fade-up" data-aos-duration="1000">
-                                <div class="feedBox">
-                                	<h4>Lorem Ipsum Dolor</h4>
-									<h6>Managing Director</h6>
-									<div class="clearfix"></div>
-									<ul class="ratings">
-										<li><i class="fa fa-star" aria-hidden="true"></i></li>
-										<li><i class="fa fa-star" aria-hidden="true"></i></li>
-										<li><i class="fa fa-star" aria-hidden="true"></i></li>
-										<li><i class="fa fa-star" aria-hidden="true"></i></li>
-										<li><i class="fa fa-star" aria-hidden="true"></i></li>
-									</ul>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-								</div>
-                            </div>
-                            <div class="item" data-aos="fade-up" data-aos-duration="1000">
-                                <div class="feedBox">
-                                	<h4>Lorem Ipsum Dolor</h4>
-									<h6>Managing Director</h6>
-									<div class="clearfix"></div>
-									<ul class="ratings">
-										<li><i class="fa fa-star" aria-hidden="true"></i></li>
-										<li><i class="fa fa-star" aria-hidden="true"></i></li>
-										<li><i class="fa fa-star" aria-hidden="true"></i></li>
-										<li><i class="fa fa-star" aria-hidden="true"></i></li>
-										<li><i class="fa fa-star" aria-hidden="true"></i></li>
-									</ul>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-								</div>
-                            </div>
-                            <div class="item" data-aos="fade-up" data-aos-duration="1000">
-                                <div class="feedBox">
-                                	<h4>Lorem Ipsum Dolor</h4>
-									<h6>Managing Director</h6>
-									<div class="clearfix"></div>
-									<ul class="ratings">
-										<li><i class="fa fa-star" aria-hidden="true"></i></li>
-										<li><i class="fa fa-star" aria-hidden="true"></i></li>
-										<li><i class="fa fa-star" aria-hidden="true"></i></li>
-										<li><i class="fa fa-star" aria-hidden="true"></i></li>
-										<li><i class="fa fa-star" aria-hidden="true"></i></li>
-									</ul>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-								</div>
-                            </div>
-                            <div class="item" data-aos="fade-up" data-aos-duration="1000">
-                                <div class="feedBox">
-                                	<h4>Lorem Ipsum Dolor</h4>
-									<h6>Managing Director</h6>
-									<div class="clearfix"></div>
-									<ul class="ratings">
-										<li><i class="fa fa-star" aria-hidden="true"></i></li>
-										<li><i class="fa fa-star" aria-hidden="true"></i></li>
-										<li><i class="fa fa-star" aria-hidden="true"></i></li>
-										<li><i class="fa fa-star" aria-hidden="true"></i></li>
-										<li><i class="fa fa-star" aria-hidden="true"></i></li>
-									</ul>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-								</div>
-                            </div>
-                        </div>
-                        <div class="MS-controls">
-                            <button class="MS-left"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
-                            <button class="MS-right"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
-                        </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-md-6 col-sm-12"
+                data-aos="fade-left"
+                data-aos-duration="1000"
+              >
+                <div class="galleryBoxProduct grayPro align-items-center">
+                  <div class="proGal_text">
+                    <h3>Product Title Here</h3>
+                    <h4>$45.00 <strike>$55.00</strike></h4>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                    <a href="#">Buy Now</a>
+                  </div>
+                  <div class="prodGal_img">
+                    <img
+                      src="images/big_prodImg.png"
+                      alt="home_prodImg"
+                      class="item_img"
+                    />
+                    <div class="imgCaption">
+                      <img src="images/gray-ganja.png" alt="ganja-img" />
                     </div>
-					<img src="images/leaf_big.png" alt="leaf_big" class="big_leaf">
-				</div>
-			</div>
-			<div class="circle_pos">
-				<div class="left_circle circle_animation"></div>
-				<div class="right_circle circle_animation"></div>
-				<!-- <img src="images/elip.png" alt="circleImg" class="left_circle" data-aos="fade-up" data-aos-duration="1000"> -->
-				<!-- <img src="images/elip.png" alt="circleImg" class="right_circle" data-aos="fade-up" data-aos-duration="1000"> -->
-			</div>
-		</section>
-		<section class="mapView">
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3667.761063053597!2d72.63459125079221!3d23.17891918479988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395c2a149ec5dc2d%3A0x601e6dc108d14982!2sOddeven%20Infotech%20Private%20Limited!5e0!3m2!1sen!2sin!4v1672724466014!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-		</section>
-		<footer>
-			<div class="container">
-				<div class="upperFooter">
-					<div class="row">
-						<div class="col-lg-8 col-md-12 col-sm-12 col-12">
-							<div class="row">
-								<div class="col-md-4 col-sm-4 col-12">
-									<div class="footer_col logo_col" data-aos="fade-up" data-aos-duration="1000">
-										<img src="images/logo.png" alt="logo" class="logo_footer">
-									</div>
-								</div>
-								<div class="col-md-4 col-sm-4 col-5">
-									<div class="footer_col" data-aos="fade-up" data-aos-duration="1000">
-										<h4>Quick Links</h4>
-										<ul class="webLinks">
-											<li><a href="product.html">Our Products</a></li>
-											<li><a href="#">Blog</a></li>
-											<li><a href="about.html">About Us</a></li>
-											<li><a href="contact.html">Contact Us</a></li>
-											<li><a href="privacy-policy.html">Privacy Policy</a></li>
-											<li><a href="terms-condition.html">Term & Conditions</a></li>
-										</ul>
-									</div>
-								</div>
-								<div class="col-md-4 col-sm-4 col-7">
-									<div class="footer_col" data-aos="fade-up" data-aos-duration="1000">
-										<h4>Contact Us</h4>
-										<ul class="webLinks">
-											<li><a href="#"><img src="images/call.png" alt="call"> <span>12 34 567 890</span></a></li>
-											<li><a href="#"><img src="images/email.png" alt="email"> <span>Support@domain.com</span></a></li>
-										</ul>
-									</div>
-									<div class="footer_col mt25" data-aos="fade-up" data-aos-duration="1000">
-										<h4>Get connect</h4>
-										<ul class="socialLinks">
-											<li><a href="#" target="_blank"><img src="images/facebook.png" alt="facebook-img"></a></li>
-						                    <li><a href="#" target="_blank"><img src="images/instagram.png" alt="instagram-img"></a></li>
-						                    <li><a href="#" target="_blank"><img src="images/whatsapp.png" alt="whatsapp-img"></a></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-12 col-sm-12 col-12">
-							<div class="row">
-								<div class="col-md-12 col-sm-12 col-12">
-									<div class="footer_col newsletter" data-aos="fade-up" data-aos-duration="1000">
-										<h4>Sign up for Email Updates</h4>
-										<form>
-											<div class="input-group mb-3">
-										    	<input type="text" class="form-control" placeholder="Your Email">
-										    	<div class="input-group-append">
-										      		<span class="input-group-text">Subscribe</span>
-										    	</div>
-										  	</div>
-										</form>
-										<p>Sign up with your email address to receive news and updates</p>
-									</div>
-									<div class="footer_col mt25" data-aos="fade-up" data-aos-duration="1000">
-										<h4>Working Time</h4>
-										<p>MON - FRI, 09:00 AM - 10:00 PM</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="lowerFooter">
-					<p>Copyright 2022. All Rights Reserved.</p>
-				</div>
-			</div>
-		</footer>
-	</div>
-	<div id="mySidebar" class="sidebar">
-	  	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-	  	<div class="navigationBar" id="myNavbar">
-            <ul class="">
-                <li>
-                	<a href="index.html">Home</a>
-                </li>
-                <li class="active">
-                	<a href="about.html">About Us</a>
-                </li>
-                <li class="">
-                	<a href="product.html">Our Products</a>
-                </li>
-                <li class="">
-                	<a href="blog.html">Blog</a>
-                </li>
-                <li class="">
-                	<a href="contact.html">Contact Us</a>
-                </li>
-                <li class="">
-                	<a href="#">Login/Regiser </a>
-                </li>
-                <li class="">
-                	<a href="#">Wishlist </a>
-                </li>
-            </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-	</div>
-	<script src="js/multislider.js"></script>
-	<script>
-        $('#mixedSlider2').multislider({
-            duration: 750,
-            interval: 5000
-        });
-        $('#mixedSlider3').multislider({
-            duration: 750,
-            interval: 5000
-        });
-        $('#mixedSlider4').multislider({
-            duration: 750,
-            interval: 5000
-        });
-        $('#mixedSlider5').multislider({
-            duration: 750,
-            interval: 5000
-        });
+      </section>
+      <section class="testimonials" data-aos="fade-up" data-aos-duration="1000">
+        <div class="container">
+          <div class="feedback">
+            <div class="feedbackArea">
+              <h4 class="allTitle">Testimonials</h4>
+              <h5>What Customers Are Saying</h5>
+              <div class="leaf_pos">
+                <img
+                  src="images/leaf_small.png"
+                  alt="leaf_small"
+                  class="small_leaf"
+                />
+              </div>
+              <img
+                src="images/trans_leaf.png"
+                alt="trans_leaf"
+                class="trans_leaf1"
+              />
+            </div>
+            <div id="mixedSlider4" class="feedback_slider">
+              <div class="MS-content">
+                <div class="item" data-aos="fade-up" data-aos-duration="1000">
+                  <div class="feedBox">
+                    <h4>Lorem Ipsum Dolor</h4>
+                    <h6>Managing Director</h6>
+                    <div class="clearfix"></div>
+                    <ul class="ratings">
+                      <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                      <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                      <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                      <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                      <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                    </ul>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                  </div>
+                </div>
+                <div class="item" data-aos="fade-up" data-aos-duration="4000">
+                  <div class="feedBox">
+                    <h4>Lorem Ipsum Dolor</h4>
+                    <h6>Managing Director</h6>
+                    <div class="clearfix"></div>
+                    <ul class="ratings">
+                      <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                      <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                      <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                      <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                      <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                    </ul>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                  </div>
+                </div>
+                <div class="item" data-aos="fade-up" data-aos-duration="1000">
+                  <div class="feedBox">
+                    <h4>Lorem Ipsum Dolor</h4>
+                    <h6>Managing Director</h6>
+                    <div class="clearfix"></div>
+                    <ul class="ratings">
+                      <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                      <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                      <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                      <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                      <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                    </ul>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                  </div>
+                </div>
+                <div class="item" data-aos="fade-up" data-aos-duration="1000">
+                  <div class="feedBox">
+                    <h4>Lorem Ipsum Dolor</h4>
+                    <h6>Managing Director</h6>
+                    <div class="clearfix"></div>
+                    <ul class="ratings">
+                      <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                      <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                      <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                      <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                      <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                    </ul>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                  </div>
+                </div>
+                <div class="item" data-aos="fade-up" data-aos-duration="1000">
+                  <div class="feedBox">
+                    <h4>Lorem Ipsum Dolor</h4>
+                    <h6>Managing Director</h6>
+                    <div class="clearfix"></div>
+                    <ul class="ratings">
+                      <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                      <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                      <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                      <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                      <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                    </ul>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                  </div>
+                </div>
+                <div class="item" data-aos="fade-up" data-aos-duration="1000">
+                  <div class="feedBox">
+                    <h4>Lorem Ipsum Dolor</h4>
+                    <h6>Managing Director</h6>
+                    <div class="clearfix"></div>
+                    <ul class="ratings">
+                      <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                      <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                      <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                      <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                      <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                    </ul>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="MS-controls">
+                <button class="MS-left">
+                  <i class="fa fa-angle-left" aria-hidden="true"></i>
+                </button>
+                <button class="MS-right">
+                  <i class="fa fa-angle-right" aria-hidden="true"></i>
+                </button>
+              </div>
+            </div>
+            <img src="images/leaf_big.png" alt="leaf_big" class="big_leaf" />
+          </div>
+        </div>
+        <div class="circle_pos">
+          <div class="left_circle circle_animation"></div>
+          <div class="right_circle circle_animation"></div>
+          <!-- <img src="images/elip.png" alt="circleImg" class="left_circle" data-aos="fade-up" data-aos-duration="1000"> -->
+          <!-- <img src="images/elip.png" alt="circleImg" class="right_circle" data-aos="fade-up" data-aos-duration="1000"> -->
+        </div>
+      </section>
+      <section class="mapView">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3667.761063053597!2d72.63459125079221!3d23.17891918479988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395c2a149ec5dc2d%3A0x601e6dc108d14982!2sOddeven%20Infotech%20Private%20Limited!5e0!3m2!1sen!2sin!4v1672724466014!5m2!1sen!2sin"
+          width="100%"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
+      <footer>
+        <div class="container">
+          <div class="upperFooter">
+            <div class="row">
+              <div class="col-lg-8 col-md-12 col-sm-12 col-12">
+                <div class="row">
+                  <div class="col-md-4 col-sm-4 col-12">
+                    <div
+                      class="footer_col logo_col"
+                      data-aos="fade-up"
+                      data-aos-duration="1000"
+                    >
+                      <img
+                        src="images/logo.png"
+                        alt="logo"
+                        class="logo_footer"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-4 col-5">
+                    <div
+                      class="footer_col"
+                      data-aos="fade-up"
+                      data-aos-duration="1000"
+                    >
+                      <h4>Quick Links</h4>
+                      <ul class="webLinks">
+                        <li><a href="product.html">Our Products</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li>
+                          <a href="privacy-policy.html">Privacy Policy</a>
+                        </li>
+                        <li>
+                          <a href="terms-condition.html">Term & Conditions</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-4 col-7">
+                    <div
+                      class="footer_col"
+                      data-aos="fade-up"
+                      data-aos-duration="1000"
+                    >
+                      <h4>Contact Us</h4>
+                      <ul class="webLinks">
+                        <li>
+                          <a href="#"
+                            ><img src="images/call.png" alt="call" />
+                            <span>12 34 567 890</span></a
+                          >
+                        </li>
+                        <li>
+                          <a href="#"
+                            ><img src="images/email.png" alt="email" />
+                            <span>Support@domain.com</span></a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                    <div
+                      class="footer_col mt25"
+                      data-aos="fade-up"
+                      data-aos-duration="1000"
+                    >
+                      <h4>Get connect</h4>
+                      <ul class="socialLinks">
+                        <li>
+                          <a href="#" target="_blank"
+                            ><img src="images/facebook.png" alt="facebook-img"
+                          /></a>
+                        </li>
+                        <li>
+                          <a href="#" target="_blank"
+                            ><img
+                              src="images/instagram.png"
+                              alt="instagram-img"
+                          /></a>
+                        </li>
+                        <li>
+                          <a href="#" target="_blank"
+                            ><img src="images/whatsapp.png" alt="whatsapp-img"
+                          /></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                <div class="row">
+                  <div class="col-md-12 col-sm-12 col-12">
+                    <div
+                      class="footer_col newsletter"
+                      data-aos="fade-up"
+                      data-aos-duration="1000"
+                    >
+                      <h4>Sign up for Email Updates</h4>
+                      <form>
+                        <div class="input-group mb-3">
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Your Email"
+                          />
+                          <div class="input-group-append">
+                            <span class="input-group-text">Subscribe</span>
+                          </div>
+                        </div>
+                      </form>
+                      <p>
+                        Sign up with your email address to receive news and
+                        updates
+                      </p>
+                    </div>
+                    <div
+                      class="footer_col mt25"
+                      data-aos="fade-up"
+                      data-aos-duration="1000"
+                    >
+                      <h4>Working Time</h4>
+                      <p>MON - FRI, 09:00 AM - 10:00 PM</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="lowerFooter">
+            <p>Copyright 2022. All Rights Reserved.</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <div id="mySidebar" class="sidebar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+      <div class="navigationBar" id="myNavbar">
+        <ul class="">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li class="active">
+            <a href="about.html">About Us</a>
+          </li>
+          <li class="">
+            <a href="product.html">Our Products</a>
+          </li>
+          <li class="">
+            <a href="blog.html">Blog</a>
+          </li>
+          <li class="">
+            <a href="contact.html">Contact Us</a>
+          </li>
+          <li class="">
+            <a href="#">Login/Regiser </a>
+          </li>
+          <li class="">
+            <a href="#">Wishlist </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script src="js/multislider.js"></script>
+    <script src="js/scrolltrigger.js"></script>
+    <script>
+      $("#mixedSlider2").multislider({
+        duration: 750,
+        interval: 5000,
+        pauseAbove: 200,
+      });
+      $("#mixedSlider3").multislider({
+        duration: 750,
+        interval: 5000,
+        pauseAbove: 200,
+      });
+      $("#mixedSlider4").multislider({
+        duration: 750,
+        interval: 5000,
+        pauseAbove: 200,
+      });
+      $("#mixedSlider5").multislider({
+        duration: 750,
+        interval: 5000,
+        pauseAbove: 200,
+      });
     </script>
     <script>
-		function openNav() {
-		  document.getElementById("mySidebar").style.width = "250px";
-		  document.getElementById("main").style.marginLeft = "0px";
-		}
+      function openNav() {
+        document.getElementById("mySidebar").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "0px";
+      }
 
-		function closeNav() {
-		  document.getElementById("mySidebar").style.width = "0";
-		  document.getElementById("main").style.marginLeft= "0";
-		}
-	</script>
-	<script src="js/aos.js"></script>
+      function closeNav() {
+        document.getElementById("mySidebar").style.width = "0";
+        document.getElementById("main").style.marginLeft = "0";
+      }
+    </script>
+    <script src="js/aos.js"></script>
     <script type="text/javascript">
-        AOS.init({
-            duration: 500,
-        })
+      AOS.init({
+        duration: 500,
+      });
     </script>
     <script>
-		window.onscroll = function() {myFunction()};
+      window.onscroll = function () {
+        myFunction();
+      };
 
-		var header = document.getElementById("main");
-		var sticky = header.offsetTop;
+      var header = document.getElementById("main");
+      var sticky = header.offsetTop;
 
-		function myFunction() {
-		  if (window.pageYOffset > sticky) {
-		    header.classList.add("sticky");
-		  } else {
-		    header.classList.remove("sticky");
-		  }
-		}
-	</script>
-</body>
+      function myFunction() {
+        if (window.pageYOffset > sticky) {
+          header.classList.add("sticky");
+        } else {
+          header.classList.remove("sticky");
+        }
+      }
+    </script>
+  </body>
 </html>
